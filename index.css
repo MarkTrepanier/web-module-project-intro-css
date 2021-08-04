@@ -40,6 +40,7 @@ blockquote:before, blockquote:after, q:before, q:after {
 blockquote, q {
 	quotes: "" "";
 	}
+/* own css after this point */
 
     /* universal selector styles */
     *{
@@ -60,7 +61,7 @@ blockquote, q {
         line-height: 1.5;
         color: #4f4f4f; /*accessability */
     }
-    sectio{
+    section{
         padding: 4% 0;
     }
     a{
@@ -69,26 +70,40 @@ blockquote, q {
 
     /* Header Section Styles */
     nav{
-        padding: 2%;
+        padding: 2% 0;
+        
     }
     nav a{
         display:inline-block;
-        padding: 1%;
-        width: 100%;
+        padding: 1% 0;
+        width: 10%;
         border-radius: 10px;
         text-align: center;
         color: #fff;
     }
     /* todo specific class color and margin */
+    
+    .orange{
+        background-color: orange;
+        margin: 10%;
+    }
+    .blue{
+        background-color: blue;
+        margin: 10%;
+    }
+    .yellow{
+        background-color: yellow;
+        margin: 10%;
+    }
     /* top section styles */
-    .left, .right{
+    /* .left, .right{
         display: inline-block;
     }
     .left{
         width: 35%
     }
     .left img{
-
+        border-radius: 50px;
     }
     .right{
         position: relative;
@@ -97,4 +112,4 @@ blockquote, q {
     .right div{
         position: absolute;
         top: 50%;
-    }
+    } */
