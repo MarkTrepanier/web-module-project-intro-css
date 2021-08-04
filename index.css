@@ -49,7 +49,7 @@ blockquote, q {
         padding:0;
         margin:0;
         max-width: 100%;
-        border: 1px solid grey; /* todo remove later*/
+        /* border: 1px solid grey; remove later */
     }
 
     /* general styles */
@@ -83,6 +83,11 @@ blockquote, q {
         text-align: center;
         color: #fff;
         font-family: 'Roboto Mono', monospace;
+        transition: .5s;
+    }
+    nav a:hover{
+        background-color:#4f4f4f;
+        width:9%;
     }
     
     h1{
@@ -118,10 +123,39 @@ blockquote, q {
     }
     .right{
         width: 60%;
-        position: relative;
+    }
+    
+    h1,h2{
+        margin-bottom:7%;
+    }
 
+    /* about bit */
+
+    .about{
+        background-color:#DDB9A3;
+        color:white;
+        margin:0 2%;
+        text-align: center;
     }
-    .right div{
-        position: absolute;
-        top: 50%;
+    .snips{
+        text-align: center;
     }
+    .fireblock, .campblock{
+        width: 25%;
+        margin: 0 40%;
+    }
+
+    /* footer */
+    footer img{
+        margin: 0 0;
+        padding: 0 0;
+        position: initial;
+    }
+
+    footer nav{
+        margin-top: 0;
+        background-color: #F9E7DC;
+    }
+
+
+    
