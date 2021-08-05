@@ -142,14 +142,17 @@ blockquote, q {
     }
     .fireblock, .campblock{
         width: 25%;
-        margin: 0 40%;
+        margin: 0 auto;
     }
 
     /* footer */
-    footer img{
-        margin: 0 0;
-        padding: 0 0;
-        position: initial;
+    .snowpeaks{
+        background-image: url('assets/footer_img.jpg');
+        height: 50vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: top center;
+        width: 100%;
     }
 
     footer nav{
