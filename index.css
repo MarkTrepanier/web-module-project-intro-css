@@ -145,6 +145,10 @@ blockquote, q {
         margin: 0 auto;
     }
 
+    span{
+        font-weight: bold;
+    }
+
     /* footer */
     .snowpeaks{
         background-image: url('assets/footer_img.jpg');
